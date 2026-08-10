@@ -25,11 +25,11 @@ export const Footer: React.FC = () => {
               </span>
             </Link>
             <p className="text-xs font-mono text-slate-400 max-w-sm leading-relaxed">
-              AWS Cloud Engineer & DevOps Specialist crafting high-scale AWS Cloud Engineering, automated CI/CD pipelines, containerized microservices, and Odoo ERP systems.
+              Software Developer & DevOps Specialist crafting high-scale software architectures, automated CI/CD pipelines, containerized microservices, and Odoo ERP systems.
             </p>
             <div className="flex items-center gap-2 text-xs font-mono text-cyan-400">
               <Cpu className="w-4 h-4 animate-pulse" />
-              <span>AWS CLOUD & DEVOPS PIPELINES READY FOR PRODUCTION</span>
+              <span>SOFTWARE DEVELOPMENT & DEVOPS PIPELINES READY FOR PRODUCTION</span>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/projects" className="hover:text-cyan-400 transition-colors">
-                  ► AWS Cloud & DevOps Projects
+                  ► Software & DevOps Projects
                 </Link>
               </li>
               <li>
@@ -122,7 +122,7 @@ export const Footer: React.FC = () => {
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-slate-400">
           <div>
             © {new Date().getFullYear()}{' '}
-            <span className="text-slate-200 font-bold">Kirtan Jani</span>. All rights reserved. AWS Cloud Engineer.
+            <span className="text-slate-200 font-bold">Kirtan Jani</span>. All rights reserved. Software Developer.
           </div>
 
           <button

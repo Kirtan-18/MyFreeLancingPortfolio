@@ -248,11 +248,11 @@ export const Contact: React.FC = () => {
                   <option value="DevOps & AWS CI/CD Pipeline Setup">
                     AWS Cloud Architecture & DevOps CI/CD Setup
                   </option>
-                  <option value="Odoo ERP Systems Development">
-                    Odoo ERP Customization & Systems Integration
+                  <option value="ERP Making, Customization and Deployment">
+                    ERP Making, Customization and Deployment
                   </option>
-                  <option value="Engineering Opportunity">
-                    Engineering Opportunity / Corporate Role
+                  <option value="Update for DevOps, Cloud Computing Role">
+                    Update for DevOps, Cloud Computing Role
                   </option>
                 </select>
               </div>

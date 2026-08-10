@@ -13,8 +13,13 @@ import {
 export const About: React.FC = () => {
   const pillars = [
     {
+      icon: Code2,
+      title: 'Software Development',
+      desc: 'Building high-performance backend microservices, robust Python systems, and scalable full-stack web applications.'
+    },
+    {
       icon: Cloud,
-      title: 'AWS Cloud Engineering',
+      title: 'AWS Cloud Systems',
       desc: 'Certified AWS Practitioner designing fault-tolerant Serverless, EC2, VPC, S3, and IAM cloud systems with automated deployment pipelines.'
     },
     {
@@ -26,11 +31,6 @@ export const About: React.FC = () => {
       icon: Cpu,
       title: 'Odoo ERP Ecosystem',
       desc: 'Hands-on Odoo ERP customization, Python module development, PostgreSQL ORM optimization, and workflow automation for enterprise systems.'
-    },
-    {
-      icon: Code2,
-      title: 'Data Analytics & AI',
-      desc: 'Processing dataset insights with Pandas, Matplotlib, and core Artificial Intelligence algorithms.'
     }
   ];
 
@@ -44,7 +44,7 @@ export const About: React.FC = () => {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border-cyan-500/30 text-xs font-mono text-cyan-400 mb-4"
         >
           <Terminal className="w-3.5 h-3.5" />
-          <span>ENGINEER PROFILE & ARCHITECTURE</span>
+          <span>DEVELOPER PROFILE & ARCHITECTURE</span>
         </motion.div>
 
         <motion.h1
@@ -62,7 +62,7 @@ export const About: React.FC = () => {
           transition={{ delay: 0.2 }}
           className="mt-4 text-slate-400 text-sm sm:text-base leading-relaxed"
         >
-          AWS Cloud Engineer & DevOps Specialist with proven expertise in building enterprise-grade cloud systems, automated CI/CD pipelines, containerized microservices, and customized Odoo ERP solutions.
+          Software Developer & DevOps Specialist with proven expertise in building enterprise-grade software systems, automated CI/CD pipelines, containerized microservices, and customized Odoo ERP solutions.
         </motion.p>
       </div>
 
@@ -101,7 +101,7 @@ export const About: React.FC = () => {
           {/* Details Below Avatar */}
           <div className="mt-6 text-center space-y-1">
             <h3 className="text-2xl font-display font-bold text-slate-100">Kirtan Jani</h3>
-            <p className="text-xs font-mono text-cyan-400 font-semibold">AWS Certified Cloud Practitioner</p>
+            <p className="text-xs font-mono text-cyan-400 font-semibold">Software Developer & DevOps Specialist</p>
             <p className="text-xs font-mono text-slate-400">Gujarat, India • jkirtan25@gmail.com</p>
           </div>
         </motion.div>
@@ -118,14 +118,14 @@ export const About: React.FC = () => {
           </h2>
 
           <p className="text-slate-400 text-sm leading-relaxed">
-            I specialize in Python programming, AWS Cloud Engineering, Data Analytics, and automated pipelines that empower enterprise software systems. From setting up AWS EC2/Serverless deployments to extending business logic in Odoo ERP, my focus is on reliability, security, and continuous delivery.
+            I specialize in Python programming, Software Development, AWS Cloud, Data Analytics, and automated pipelines that empower enterprise software systems. From setting up AWS EC2/Serverless deployments to extending business logic in Odoo ERP, my focus is on reliability, security, and continuous delivery.
           </p>
 
           {/* Quick Check Highlights */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 font-mono text-xs text-slate-300">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0" />
-              <span>AWS Certified (CLF-C02)</span>
+              <span>Software Developer</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-cyan-400 shrink-0" />
@@ -160,7 +160,7 @@ export const About: React.FC = () => {
       {/* Engineering Pillars */}
       <div className="mt-24">
         <h2 className="text-2xl sm:text-4xl font-display font-bold text-center text-slate-100 mb-12">
-          CORE ENGINEERING PILLARS
+          CORE SOFTWARE PILLARS
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

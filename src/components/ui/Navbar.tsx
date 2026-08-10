@@ -107,7 +107,7 @@ export const Navbar: React.FC = () => {
                 KIRTAN <span className="text-cyan-400">.DEV</span>
               </span>
               <span className="text-[10px] font-mono text-slate-400 tracking-widest uppercase">
-                AWS Cloud Engineer
+                Software Developer
               </span>
             </div>
           </Link>
