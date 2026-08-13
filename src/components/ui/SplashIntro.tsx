@@ -47,7 +47,7 @@ export const SplashIntro: React.FC<SplashIntroProps> = ({ onEnter }) => {
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel border-cyan-500/30 text-xs font-mono text-cyan-400 mb-6 shadow-[0_0_20px_rgba(0,240,255,0.2)]"
           >
             <Terminal className="w-3.5 h-3.5" />
-            <span>SYSTEM INITIALIZATION READY</span>
+            <span>WELCOME TO PORTFOLIO</span>
           </motion.div>
 
           {/* Name & Title */}
@@ -98,7 +98,7 @@ export const SplashIntro: React.FC<SplashIntroProps> = ({ onEnter }) => {
             className="mt-6 text-[11px] font-mono text-slate-500 tracking-widest uppercase flex items-center gap-2"
           >
             <ShieldCheck className="w-3.5 h-3.5 text-cyan-400" />
-            <span>PRESS TO UNLOCK 3D PORTFOLIO ENVIRONMENT</span>
+            <span>CLICK BUTTON TO ENTER PORTFOLIO</span>
           </motion.span>
         </div>
       </motion.div>

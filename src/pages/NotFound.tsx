@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Terminal, AlertTriangle, ArrowLeft } from 'lucide-react';
+import { AlertTriangle, ArrowLeft } from 'lucide-react';
 
 export const NotFound: React.FC = () => {
   return (
@@ -14,11 +14,11 @@ export const NotFound: React.FC = () => {
           404 <span className="text-rose-500">ERROR</span>
         </h1>
         <p className="text-xs font-mono text-slate-400 mt-2">
-          SIGNAL DISRUPTED // ROUTE NOT FOUND IN CYBER GRID
+          PAGE NOT FOUND
         </p>
 
         <p className="text-slate-300 text-xs sm:text-sm mt-4 leading-relaxed">
-          The requested coordinate matrix does not exist or has been relocated within the cloud network.
+          The page you are looking for does not exist or has been moved.
         </p>
 
         <div className="mt-8 flex justify-center">
@@ -27,7 +27,7 @@ export const NotFound: React.FC = () => {
             className="px-6 py-3 rounded-full bg-cyan-500 hover:bg-cyan-400 text-black font-display font-bold text-xs tracking-wider uppercase flex items-center gap-2 transition-all shadow-[0_0_20px_rgba(0,240,255,0.4)]"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>RETURN TO MAIN SYSTEM</span>
+            <span>RETURN TO HOME PAGE</span>
           </Link>
         </div>
       </div>

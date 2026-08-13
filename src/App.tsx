@@ -24,7 +24,7 @@ const PageLoader: React.FC = () => (
       <Terminal className="w-6 h-6 text-cyan-400" />
     </div>
     <span className="mt-4 font-mono text-xs text-slate-400 tracking-widest uppercase animate-pulse">
-      LOADING CYBER MODULE...
+      LOADING PORTFOLIO...
     </span>
   </div>
 );

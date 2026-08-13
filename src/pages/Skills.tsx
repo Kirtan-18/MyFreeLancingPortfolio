@@ -97,7 +97,7 @@ export const Skills: React.FC = () => {
       <div className="text-center max-w-3xl mx-auto">
         <span className="text-xs font-mono text-cyan-400 tracking-widest uppercase flex items-center justify-center gap-2">
           <Layers className="w-4 h-4" />
-          TECHNICAL COMPETENCY MATRIX
+          TECHNICAL SKILLS & COMPETENCIES
         </span>
         <h1 className="text-4xl sm:text-6xl font-display font-black text-slate-100 mt-3">
           SKILLS & <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500">CAPABILITIES</span>
