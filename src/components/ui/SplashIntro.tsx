@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Zap, Sparkles, Terminal, ShieldCheck } from 'lucide-react';
 import { CyberGlitchOverlay } from './CyberGlitchOverlay';
 
@@ -34,7 +34,7 @@ export const SplashIntro: React.FC<SplashIntroProps> = ({ onEnter }) => {
         {/* Background Glowing Ambient Aura Orbs */}
         <div className="absolute w-[500px] h-[500px] rounded-full bg-gradient-to-r from-cyan-500/20 via-purple-600/20 to-pink-500/20 blur-[120px] animate-pulse-slow pointer-events-none" />
         
-        {/* Subtle Cyber Grid Grid Background */}
+        {/* Subtle Cyber Grid Background */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:4rem_4rem] pointer-events-none" />
 
         {/* Content Box */}
@@ -66,7 +66,7 @@ export const SplashIntro: React.FC<SplashIntroProps> = ({ onEnter }) => {
             transition={{ delay: 0.4 }}
             className="mt-3 text-xs sm:text-sm font-mono text-slate-400 tracking-widest uppercase"
           >
-            AWS CLOUD ENGINEER & DEVOPS SPECIALIST
+            SOFTWARE DEVELOPER & DEVOPS SPECIALIST
           </motion.p>
 
           {/* Epic Centered "CLICK TO BOOM" Button */}

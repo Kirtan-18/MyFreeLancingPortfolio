@@ -16,7 +16,6 @@ const Skills = lazy(() => import('./pages/Skills').then(m => ({ default: m.Skill
 const Projects = lazy(() => import('./pages/Projects').then(m => ({ default: m.Projects })));
 const Achievements = lazy(() => import('./pages/Achievements').then(m => ({ default: m.Achievements })));
 const Contact = lazy(() => import('./pages/Contact').then(m => ({ default: m.Contact })));
-const AdminDashboard = lazy(() => import('./pages/AdminDashboard').then(m => ({ default: m.AdminDashboard })));
 const NotFound = lazy(() => import('./pages/NotFound').then(m => ({ default: m.NotFound })));
 
 const PageLoader: React.FC = () => (
@@ -78,7 +77,6 @@ export const App: React.FC = () => {
                   <Route path="/experience" element={<Navigate to="/skills" replace />} />
                   <Route path="/achievements" element={<Achievements />} />
                   <Route path="/contact" element={<Contact />} />
-                  <Route path="/admin" element={<AdminDashboard />} />
                   <Route path="*" element={<NotFound />} />
                 </Routes>
               </Suspense>
